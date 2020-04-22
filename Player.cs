@@ -11,7 +11,7 @@ namespace LemonadeStand_3DayStarter
         // member variables (HAS A)
         public Inventory inventory;
         public Wallet wallet;
-
+        public string name = 
         // constructor (SPAWNER)
         public Player()
         {

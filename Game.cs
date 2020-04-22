@@ -7,6 +7,5 @@ using System.Threading.Tasks;
 namespace LemonadeStand_3DayStarter
 {
     class Game
-    {
-    }
+    {}
 }
