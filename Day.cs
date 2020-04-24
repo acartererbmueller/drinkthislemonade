@@ -38,9 +38,26 @@ namespace LemonadeStand_3DayStarter
         {
             if (dailyWeather.dailyTemperature >= 75)
             {
-                customers.Add(Customer);
+                customers.Add(new Customer());
+            }
+            else if (dailyWeather.dailyTemperature <= 60)
+            {
+
+                customers.Remove(new Customer());
 
             }
+
+
+            for (int i = 0; i < length; i++)
+            {
+
+            }
+        
+        
+        
+        }
+
+
                 
                     
                     
